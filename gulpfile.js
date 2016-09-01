@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var apigeetool = require('apigeetool')
 var gutil = require('gulp-util')
-var proxy_name = 'apigee-sample-quota-basic'
+var proxy_name = 'jwt'
 gulp.task('default', function() {
   // place code for your default task here
 });
