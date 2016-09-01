@@ -1,0 +1,6 @@
+<Javascript name="JavaScript.GenerateJwtToken">
+    <ResourceURL>jsc://GenerateJwtToken.js</ResourceURL>
+    <IncludeURL>jsc://core-min.js</IncludeURL>
+    <IncludeURL>jsc://enc-base64-min.js</IncludeURL>
+    <IncludeURL>jsc://hmac-sha256.js</IncludeURL>
+</Javascript>

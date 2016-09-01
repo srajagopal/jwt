@@ -1,0 +1,23 @@
+{
+  "name": "jwt-basic",
+  "version": "0.0.1",
+  "description": "A sample API Proxy to generate JWT",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha "
+  },
+  "dependencies":{
+    "chai":"*",
+    "request":"*",
+    "async":"*"  
+  },
+  "dependencies":{
+    "gulp":"*",
+    "apigeetool" : "mukundha/apigeetool-node"
+  },
+  "author": "srajagopal@apigee.com",
+  "license": "ISC"
+}
