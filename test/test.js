@@ -11,7 +11,7 @@ getTestData(org,env,sample,function(data){
 	//i don have any data for this proxy
 })
 
-var url = 'https://' + org + '-' + env + '.apigee.net/quota-basic'
+var url = 'https://' + org + '-' + env + '.apigee.net/jwt'
 describe('QuotaBasic', function(){
 	describe('calling ' + url, function(){
 		it('make 5 API calls, only 2 should succeed', function(done){
